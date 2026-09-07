@@ -1,0 +1,16 @@
+# R session / RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+
+# R CMD build / check artifacts
+*.tar.gz
+*.Rcheck/
+
+# udpipe POS model -- downloaded at runtime by patccat_load_model(), never committed
+*.udpipe
+
+# macOS
+.DS_Store
