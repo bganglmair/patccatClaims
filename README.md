@@ -55,6 +55,12 @@ the human gold. The full 9,830-claim AMT gate lives in the research repository.
 POS tagging by [udpipe](https://cran.r-project.org/package=udpipe) (Jan Wijffels),
 using the Universal Dependencies English-EWT treebank.
 
+## Acknowledgements
+
+The R-package scaffolding, documentation, and repository and release setup were
+done with assistance from Anthropic's Claude (Cowork). The classifier and its
+validation are the authors' own work.
+
 ## License
 
 MIT (c) 2026 Bernhard Ganglmair, W. Keith Robinson.

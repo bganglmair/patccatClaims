@@ -46,6 +46,11 @@ once into a per-user cache by \code{\link{patccat_load_model}}. Credit: the
 \pkg{udpipe} R package (Jan Wijffels) and the Universal Dependencies English-EWT
 treebank.
 }
+\section{Acknowledgements}{
+The R-package scaffolding, documentation, and repository setup were done with
+assistance from Anthropic's Claude (Cowork). The classifier and its validation
+are the authors' own work.
+}
 \author{
 Bernhard Ganglmair (maintainer, \email{b.ganglmair@gmail.com}) and W. Keith Robinson.
 }
