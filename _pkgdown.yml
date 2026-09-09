@@ -1,0 +1,27 @@
+url: https://bganglmair.github.io/patccatClaims/
+
+template:
+  bootstrap: 5
+
+reference:
+  - title: Classify claims
+    desc: >
+      Label U.S. patent claims product vs process and extract the
+      claim-structure flags.
+    contents:
+      - fn.patccat
+      - patccat_classify
+  - title: Model and defaults
+    desc: >
+      The pinned udpipe part-of-speech model, and the validated internal
+      parameters and word lists behind the default classification path.
+    contents:
+      - patccat_load_model
+      - patccat_defaults
+  - title: Validation
+    desc: Score classifier output against a gold benchmark.
+    contents:
+      - fn.benchmarking
+  - title: Package overview
+    contents:
+      - patccatClaims-package

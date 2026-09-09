@@ -10,6 +10,9 @@ Description: Rule-based classifier that labels U.S. patent claims as product or
     tags. This is the core classifier of the patccat pipeline, packaged for
     standalone use.
 License: MIT + file LICENSE
+URL: https://github.com/bganglmair/patccatClaims,
+    https://bganglmair.github.io/patccatClaims/
+BugReports: https://github.com/bganglmair/patccatClaims/issues
 Encoding: UTF-8
 Depends: R (>= 4.0)
 Imports:

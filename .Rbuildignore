@@ -3,3 +3,6 @@
 ^\.Rproj\.user$
 _problems
 ^CITATION\.cff$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
