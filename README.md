@@ -12,10 +12,8 @@ classifier of the patccat pipeline, packaged for standalone use.
 remotes::install_github("bganglmair/patccatClaims")
 ```
 
-While the repository is private you'll need a GitHub personal access token with
-read access — `remotes` reads it from the `GITHUB_PAT` environment variable. Once
-the repo is public the line above works as-is. From a local copy of the source,
-`remotes::install_local("patccatClaims")` also works.
+From a local copy of the source, `remotes::install_local("patccatClaims")` also
+works.
 
 ## Quick start
 
