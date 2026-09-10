@@ -1,5 +1,7 @@
 # patccatClaims
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22697822.svg)](https://doi.org/10.5281/zenodo.22697822)
+
 Rule-based classifier that labels U.S. patent claims as **product** or **process**
 and extracts claim-structure flags (means-plus-function, Jepson, Beauregard,
 single-line, and others), using udpipe part-of-speech tags. It is the core
@@ -58,6 +60,17 @@ using the Universal Dependencies English-EWT treebank.
 The R-package scaffolding, documentation, and repository and release setup were
 done with assistance from Anthropic's Claude (Cowork). The classifier and its
 validation are the authors' own work.
+
+## Citing
+
+If you use this package, cite the archived release. The concept DOI below always
+resolves to the latest version:
+
+> Ganglmair, B., and W. K. Robinson. patccatClaims: Product vs Process U.S. Patent
+> Claim Classifier. https://doi.org/10.5281/zenodo.22697822
+
+`CITATION.cff` in this repository carries the machine-readable version, and GitHub's
+"Cite this repository" link renders it.
 
 ## License
 
